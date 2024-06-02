@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto; 
+}
+img{
+    width: 100%; 
+}
+header::after{
+    content: '';
+    background-color:#F5F9FE;
+    width: 100%; 
+    height: 100%;
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+header::before{
+    content: '';
+    overflow: hidden;
+    background-color: #2067DD;
+    width: 200%; 
+    height: 200%;
+    z-index: -1;
+    border-radius:323px;
+    position: absolute;
+    transform: rotate(-3deg);
+    bottom: 0;  
+    right: 0;
+}
+.header{
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 12%;
+}
+.media{
+    display: flex;
+}
+.text{
+    margin-top: 103px;
+}
+.home{
+    display: flex;
+}
+h1{
+    color: #FFFFFF;
+    font-family:'montserratsemibold';
+}
+.header .home .text p{
+    font-family: 'poppinslight';
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 34px;
+}
+button{
+    font-family: 'open_sanssemibold'; 
+    color: #FFFFFF;
+    margin-top: 45px;
+    background-color: #6FBD13;
+    border: none;
+    box-shadow: #6FBD1319 0px,0px,15px;
+}
+.btn{
+    padding: 10px 47px 11px 40px;
+}
+.group{
+    width: 120%;
+}
+.camera{
+    width: auto;
+}
+.banner{
+    background-color: #F5F9FE ;
+    padding-bottom: 149px;
+}
+.head{
+    font-size: 36px;
+    font-family: 'montserratregular';
+    display: flex;
+    justify-content: center;
+}
+.data{
+    display: flex;
+    margin-top: 60px;    
+    gap:30px ;
+}
+.banner .data h3{
+    font-family: 'montserratmedium';
+    color: #303E4B;
+    padding-top: 30px;
+    font-size: 22px;
+}
+.banner .data p{
+         font-family: 'poppinsregular';
+         padding-top: 21px;
+         font-size: 15px;
+         color: #748EAA;
+}
+.info{
+    box-shadow: 0px 2px 10px #2067DD19;
+    background-color: #FFFFFF;
+    padding: 30px 30px 47px 30px ;
+}
+.domaindata{
+    display: flex;
+    gap: 30px;
+}
+.domains{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.headdomain{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'montserratregular';
+    color: #303E4B;
+}
+.app{
+      margin-top: 96px;
+}
+.domainmain{
+    margin-top: 76px;
+}
+.domaininfo:hover{
+       background-color: #2067DD;
+       color: #FFFFFF;
+}
+.domain .domaindata h3{
+    font-family: 'montserratmedium';
+    font-size: 22px;
+}
+.domain .domaininfo h3{
+    font-family:'montserratmedium' ;
+    font-size: 22px;
+}
+.domain .domaindata p{
+    font-family: 'poppinsregular' ;
+    font-size: 15px;
+    color:#748EAA;
+    padding-top: 21px;
+}
+.domain .domaininfo p{
+    font-family: 'poppinsregular' ;
+    font-size: 15px;
+    color:#748EAA;
+    padding-top: 21px;
+}
+.domaininfo:hover h3{
+    color: #FFFFFF;
+}
+.domaininfo:hover p{
+    color: white;
+}
+.domainwork{
+    display: flex;
+    justify-content: center;
+}
+.workdomain{
+    padding-top: 45px;
+}
+.domaininfo{
+    box-shadow: 0px 0px 10px #2067DD19;
+    padding: 40px;
+}
+.work{
+    padding-top: 85px;
+    text-align: center;
+    padding-bottom: 105px;
+}
+.domain .work p{
+    padding-top: 21px;
+    font-size :18px;
+    font-family:'poppinsregular' ;
+    color: #748EAA;
+}
+.domain .work h2{
+    text-align: center;
+    font-family: 'montserratmedium';
+    font-size: 22px ;
+    color: #303E4B;
+}
+.workbtn{
+      box-shadow: 0px 0px 15px #6FBD1319;
+     padding:16px 59px 16px 54px ;
+}
+.aboutus{
+        background-image: url(../image/Background.png);
+         height: 269px;
+         display: flex;
+}
+.aboutus .about h3{
+    font-size: 36px;
+    font-family:'montserratregular' ;
+    color: #FFFFFF;
+}
+.aboutus .about p{
+    font-size: 15px;
+    font-family:'poppinsregular' ;
+    color: #FFFFFF; 
+    padding-top: 40px;
+}
+.contactus .contact h3{
+    margin-top: 100px;
+    font-family: 'muliregular';
+    color: #2067DD;
+}
+.contactus .contactinfo h3{
+        text-align: center;
+        font-size:36px ;
+        font-family: 'montserratregular';
+        color:#303E4B ;
+        margin-bottom: 21px;
+}
+.contactus .contactinfo p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'poppinsregular';
+    color: #748EAA;
+    margin-bottom: 49px;
+}
+.form{
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 20px #2067DD33;
+    justify-content: center;
+    margin: 0 131px;
+    margin-bottom: 126px;
+}
+.form1{
+    padding-top: 38px;
+    width: 60%;
+    padding: 20px;
+}
+.llable{
+    font-size: 22px;
+    font-family: 'muliregular';
+    color:#2067DD ;
+}
+.formbtn{
+   box-shadow: 0px 0px 15px; 
+   padding: 16px 59px 16px 54px;
+   margin-bottom: 40px;
+}
+.form2{
+    width: 40%;
+    background-color: #2067DD;
+    position: relative;
+}
+.formp{
+   font-size: 15px;
+    color: white;
+}
+.name
+{
+    display: flex;
+    gap: 10px;
+}
+.formdiv1{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-top: 38px;
+}
+.formdiv2{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    margin-top: 38px;
+}
+label{
+    font-size:15px ;
+    font-family: 'open_sanslight';
+    color:#303E4B ;
+}
+.formarea{
+    margin-top: 25px;
+
+}
+.formtext1{
+    font-size:14px ;
+    font-family: 'open_sanslight';
+    color:#748EAA ;
+     margin-top: 10px; 
+     padding: 10px;
+}
+.formtext2{
+    font-size:14px ;
+    font-family: 'open_sanslight';
+    color:#748EAA ;
+    margin-top: 10px;
+    padding: 10px;
+}
+.textmsg{
+    width: 100%;
+    font-size:14px ;
+    font-family: 'open_sanslight';
+    color:#748EAA ;
+    margin-top: 10px;
+}
+.formh2{
+    font-family: 'muliregular';
+    font-size: 22px;
+    color: white;
+    padding:25px 37px 30px;
+}
+i{
+    padding-left: 30px;
+    color: white;
+    padding-right: 11.4px;
+}
+.incon{
+    display: flex;
+}
+.contactus .form2 p{
+    color: white;
+    font-size: 15px;
+    font-family:'open_sansregular' ;
+}
+.dronimg{
+    display: flex;
+    position: absolute;
+    left: 240px;
+    width: 50%;
+}
+.footer{
+    padding: 30px;
+    background-color: #F5F9FE;
+}
+.footerdata{
+    text-align: center;
+    font-size:15px ;
+    font-family:'open_sansregular' ;
+    color: #303E4B;
+}
+.highlight{
+    color: #2067DD;
+}
+
+/* Media query */
+
+@media (max-width:767.98px) {
+    .container{
+        width: 90%;
+    } 
+    .home{
+        flex-direction: column;
+    }
+    .logo{
+        width: 25%;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .header .home .text p{
+        font-size: 14px;
+        margin-top: 12px;
+        line-height: 18px;
+    }
+    .btn{
+        padding:  3px 11px;
+        margin-top: 20px;
+    }
+    .camera{
+        width:15%;
+    }
+    .banner{
+        padding-bottom: 130px;
+    }
+    .head{
+        font-size: 15px;  
+    }
+    .data{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .info{
+        padding: 10px 20px 6px 11px;
+    }
+    .banner .data h3{
+        font-size: 16px;
+        padding-top: 15px;
+        font-weight: normal;
+    }
+    .banner .data p{
+        padding-top: 15px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    
+    .app{
+        margin-top: 30px;
+    }
+    .headdomain{
+        font-size: 17px;
+    }
+    .domainmain{
+        margin-top: 30px;
+    }
+    .domaindata{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .domaininfo{
+        padding: 20px;
+    }
+    .domain .domaininfo h3{
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .domain .domaininfo p{
+        font-size: 12px;
+        padding-top: 15px;
+        line-height: 18px;
+    }
+    .domains{
+        flex-direction:column ;
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .work{
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+    .domain .work h2{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .domain .work p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .workbtn{
+        padding: 10px 30px 10px 30px;
+        margin-top: 23px;
+    }
+   .aboutus .about h3{
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .aboutus .about p{
+        font-size: 11px;
+        padding-top: 21px;
+        line-height: 18px;
+    }
+    .contactus .contactinfo h3{
+        font-size: 24px;
+        margin-bottom: 17px;
+        margin-top: 21px;
+        font-weight: normal;
+    }
+    .contactus .contactinfo p{
+        font-size: 12px;
+        margin-bottom: 30px;
+        line-height: 18px;
+    }
+   .form{
+        flex-direction: column;
+        margin: 5px;
+    }
+    .form1{
+        padding: 17px ;
+    }
+    .llable{
+        font-size: 14px;
+    }
+    .name{
+        flex-direction: column;
+        gap: 0;
+    }
+    .formdiv1{
+        margin-top: 30px;
+    }
+    label{
+        font-size: 12px;
+    }
+    .formtext1{
+        width: fit-content;
+        font-size: 12px;
+        margin-top: 7px;
+        padding: 7px;
+    }
+    .formdiv2{
+        margin-top: 10px    ;
+    }
+    .formtext2{
+        width: fit-content;
+        font-size: 12px;
+        margin-top: 7px;
+        padding: 7px;
+    }
+    .formarea{
+        margin-top: 20px;
+    }
+    .textmsg{
+        font-size: 12px;
+        margin-top: 7px;
+    }
+    .formbtn{
+        padding: 10px 24px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .form2{
+        width: auto;
+    }
+    .formh2{
+        font-size: 19px;
+        padding: 19px 29px ;
+        font-weight: normal;
+    }
+    i{
+        padding-bottom: 17px;
+    }
+    .dronimg{
+        display: none;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footerdata{
+        font-size: 11px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .logo{
+        padding-left: 20px;
+    }
+    h1{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .header .home .text p {
+        padding-left: 20px;
+        font-size: 17px;
+    } 
+    .group{
+        width: 100%;
+    }
+    .data{
+        padding: 0 20px;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .btn{
+        margin: 27px;
+    }
+    .banner .data h3{
+        font-size: 22px;
+        font-weight: normal;
+        padding-top: 35px;
+    }
+    .banner .data p{
+        font-size: 14px;
+        padding-top: 25px;
+        line-height: 22px;
+    }
+    .domainmain{
+        margin-top: 90px;
+    }
+    .domaindata{
+        padding: 20px;
+        gap: 34px;
+    }
+    .domain .domaininfo h3{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .domain .domaininfo p{
+        font-size: 14px;
+        padding-top: 28px;
+        line-height: 25px;
+    }
+    .domains{
+        gap: 34px;
+        padding: 0 20px;
+    }
+    .domain .work h2{
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .domain .work p{
+        font-size: 17px;
+        padding-top: 30px;
+        line-height: 26px;
+    }
+    .workbtn{
+        font-size: 16px;
+        margin-top: 54px;
+    }
+    .aboutus .about h3{
+        font-size: 32px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .aboutus .about p{
+        font-size: 15px;
+        line-height: 26px;
+        padding-top: 45px;
+        padding-left: 20px 
+    }
+    .contactus .contactinfo h3{
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .contactus .contactinfo p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 54px;
+        padding-right: 10px;
+    }
+    .form{
+        margin: 0 100px;
+    }
+    .llable{
+        font-size: 25px;
+    }
+    .name{
+        gap:15px;
+    }
+    label{
+        font-size: 16px;
+    }
+    .formtext1 {
+        font-size: 12px;
+        margin-top: 15px ;
+    }
+    .formtext2 {
+        font-size: 12px;
+        margin-top: 15px ;
+    }
+    .formarea{
+        margin-top: 30px;
+    }
+    .textmsg{
+        margin-top: 15px;
+        font-size: 12px;
+        width: 100% ;
+    }
+    .formbtn{
+        font-size: 12px;
+        margin-bottom: 45px;
+    }
+    .formh2{
+        font-size: 24px;
+    }
+    .dronimg{
+        display: none;
+    }
+    .footer{
+        padding: 34px;
+        margin-top: 10%;
+    }
+    .footerdata{
+        font-size: 12px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+    .logo{
+        padding-left: 20px;
+    }
+    h1{
+        padding-left: 20px;
+        font-size: 37px;
+    }
+    .header .home .text p {
+        padding-left: 20px;
+        font-size: 24px;
+    } 
+    .data{
+        padding: 0 20px;
+    }
+    .btn{
+        margin: 27px;
+    }
+    .group{
+        width: 107%;
+    }
+    .head{
+        font-size: 33px;
+    }
+    .work{
+        padding-bottom: 72px;
+    }
+    .banner .data h3{
+        font-weight: normal;
+    }
+    .banner .data p{
+        line-height: 18px;
+    }
+    .headdomain{
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .domaindata{
+        padding: 13px;
+        gap: 20px;
+    }
+    .domains{
+        gap: 20px;
+        padding: 0 13px;
+    }
+    .domain .domaininfo h3{
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .domain .domaininfo p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .domain .work h2{
+        font-size: 26px;
+        font-weight: normal;
+    }
+    .domain .work p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .aboutus .about h3{
+        font-size: 30px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .aboutus .about p{
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 45px;
+        padding-left: 20px 
+    }
+    .contactus .contactinfo h3{
+        font-weight: normal;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .contactus .contactinfo p{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 54px;
+    }
+    .llable{
+        font-size: 24px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .formh2{
+        font-size: 23px;
+        font-weight: normal;
+    }
+    .dronimg{
+        display: none;
+    }
+    .footerdata{
+        font-size: 16px;
+    }
+}

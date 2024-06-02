@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../font/montserrat_semibold-webfont.woff2') format('woff2'),
+         url('../font/montserrat_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../font/fontsfree-net-montserrat-medium_1-webfont.woff2') format('woff2'),
+         url('../font/fontsfree-net-montserrat-medium_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../font/montserrat.regular-webfont.woff2') format('woff2'),
+         url('../font/montserrat.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/open_sans_regular-webfont.woff2') format('woff2'),
+         url('../font/open_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../font/opensans-light-webfont.woff2') format('woff2'),
+         url('../font/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../font/open_sans_semibold_600-webfont.woff2') format('woff2'),
+         url('../font/open_sans_semibold_600-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../font/poppins-light-webfont.woff') format('woff2'),
+         url('../font/poppins-light-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../font/fontsfree-net-poppins-regular-webfont.woff2') format('woff2'),
+         url('../font/fontsfree-net-poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'muliregular';
+    src: url('../font/muli-regular-webfont.woff2') format('woff2'),
+         url('../font/muli-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
